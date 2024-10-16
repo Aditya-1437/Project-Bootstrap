@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenVEDA / Offers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/IndexStyle.css">
+</head>
+<body class="bg-light-subtle">
+    
+
+    <header class="container">
+        <nav class="navbar navbar-expand-lg bg-success-subtle rounded" aria-label="Eleventh navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand text-success fs-3 fw-semibold" href="#">ZenVEDA</a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+                <div class="navbar-collapse collapse" id="navbarsExample09">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success" href="Pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-success" href="#" data-bs-toggle="dropdown" aria-expanded="false">Shop By Category</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-success" href="#">Men</a></li>
+                        <li><a class="dropdown-item text-success" href="#">Women</a></li>
+                        <li><a class="dropdown-item text-success" href="#">Babies</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                    <form role="search">
+                    <input class="form-control text-success" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                    <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                        <button class="btn btn-outline-success" onclick="login()">Login/Register</button>
+                    </div>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="container">
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img class="bd-placeholder-img" src="IMAGES/offer1`.avif" width="100%" height="100%" alt="No Image">
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1 class="text-light fs-1 fw-semibold">Complete Hair Kit</h1>
+                    <p class="text-light">A bundle of hair products that will nourish your hair thoughly</p>
+                    <p><a class="btn btn-lg btn-success" href="#">BUY - $19.99</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active ">
+                <img class="bd-placeholder-img" src="IMAGES/offer2.avif" width="100%" height="100%" alt="No Image">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1 class="text-success">Fun for Face</h1>
+                    <p class="text-body-secondary">The ZenVEDA prestigious Face Product</p>
+                    <p><a class="btn btn-lg btn-success" href="#">BUY - $29.99</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="bd-placeholder-img" src="IMAGES/offer3.avif" width="100%" height="100%" alt="No Image">
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1 class="text-black fw-semibold">Full Body Supliment</h1>
+                    <p class="text-body-secondary fs-2 fw-normal">A kit to your healthy body needs.</p>
+                    <p><a class="btn btn-lg btn-success" href="#">BUY - $14.99</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="SCRIPTS/IndexScript.js"></script>
+</body>
+</html>
